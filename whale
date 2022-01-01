@@ -726,9 +726,9 @@ banner2() {
         ║${white}   ╚═╝┴└─└─┘─┴┘└─┘┘└┘ ┴ ┴┴ ┴┴─┘└─┘${green}  ║
         ╚════════════════════════════════════╝
 	whale BETA : ${white}v${VERSION}${green}
-         Reborn by : ${white}Mr.Derek(t2g)${green}
+         Reborn by : ${white}Mr.hk4crprasad(t2g)${green}
          Publisher : ${white}Bhavik Oza${green}
-	    Author : ${white}Ashish Singh${green}
+	    
 	     Note  : ${yellow}Soon will add New Features!${yellow}
 
         》 ${cyan1}${final_url}${yellow} 《 MODIFIED URL.
@@ -864,12 +864,13 @@ do
 	clear
         printf "${green}
 
-        ██████╗██╗  ██╗ █████╗ ██████╗ ██╗  ██╗
-       ██╔════╝██║  ██║██╔══██╗██╔══██╗██║ ██╔╝
-       ╚█████╗ ███████║███████║██████╔╝█████═╝${white}
-        ╚═══██╗██╔══██║██╔══██║██╔══██╗██╔═██╗
-       ██████╔╝██║  ██║██║  ██║██║  ██║██║ ╚██╗
-       ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ${cyan1} .beta v${VERSION} \n                                     ${yellow}Reborn by Mr.Derek(t2g)\n\n "
+ 
+   ░██╗░░░░░░░██╗██╗░░██╗░█████╗░██╗░░░░░███████╗
+   ░██║░░██╗░░██║██║░░██║██╔══██╗██║░░░░░██╔════╝
+   ░╚██╗████╗██╔╝███████║███████║██║░░░░░█████╗░░${white}
+   ░░████╔═████║░██╔══██║██╔══██║██║░░░░░██╔══╝░░
+   ░░╚██╔╝░╚██╔╝░██║░░██║██║░░██║███████╗███████╗
+   ░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝${cyan1} .beta v${VERSION} \n                                     ${yellow}Reborn by Mr.Derek(t2g)\n\n "
 
       printf "${green}       ╔──────────────────────────────────────╗\n"
       printf "${green}        |   ${cyan1}     B E T A   V E R S I O N ${green}      |\n"
