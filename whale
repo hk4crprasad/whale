@@ -3,9 +3,9 @@
 ##############################################
 #                                            #
 #             PROJECT: whale                 #
-#              whale ©2021                   #
+#              whale ©2022                   #
 #           BEST PHISHING TOOLS              #
-#       Reborn by :- M r. D e r e K          #
+#       born by :-H K 4 C R P R P R A S A D  #
 ##############################################
 
 #########
@@ -32,7 +32,7 @@ nc="\033[0m"                                                ##
 # VERSION
 ##########
 
-VERSION="2.5.1"
+VERSION="1.03"
 
 ################
 # PRINT MESSAGE
@@ -567,9 +567,9 @@ link=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' "${logfile}.cloud.log");a
 function prt() {
 clear
 printf "${green}        ╔──────────────────────────────────────╗\n"
-printf "${green}        |   ${cyan1}     S.H.A.R.K !! B.E.T.A ${green}         |
+printf "${green}        |   ${cyan1}     W.H.A.L.E !! 1.03    ${green}         |
         |   ${yellow}      Choose your Option ${green}          |\n"
-printf "${green}        ╚──────────────────────────────────────╝${cyan1}.beta v$VERSION \n\n"
+printf "${green}        ╚──────────────────────────────────────╝${cyan1}1.03 v$VERSION \n\n"
 printf "${red}[A]$cafe :${green} ngrok $cafe\e[0;33m[\e[0;31mGoogle Alert!\e[0;33m]
 
 ${red}[B]$cafe :${green} cloudflare $cafe\e[0;33m[\e[0;32mNEW!\e[0;33m]
@@ -726,8 +726,8 @@ banner2() {
         ║${white}   ╚═╝┴└─└─┘─┴┘└─┘┘└┘ ┴ ┴┴ ┴┴─┘└─┘${green}  ║
         ╚════════════════════════════════════╝
 	whale BETA : ${white}v${VERSION}${green}
-         Reborn by : ${white}Mr.hk4crprasad(t2g)${green}
-         Publisher : ${white}Bhavik Oza${green}
+         Reborn by : ${white}hk4crprasad${green}
+         Publisher : ${white} Haraprasad Hota${green}
 	    
 	     Note  : ${yellow}Soon will add New Features!${yellow}
 
@@ -865,15 +865,15 @@ do
         printf "${green}
 
  
-   ░██╗░░░░░░░██╗██╗░░██╗░█████╗░██╗░░░░░███████╗
-   ░██║░░██╗░░██║██║░░██║██╔══██╗██║░░░░░██╔════╝
-   ░╚██╗████╗██╔╝███████║███████║██║░░░░░█████╗░░${white}
-   ░░████╔═████║░██╔══██║██╔══██║██║░░░░░██╔══╝░░
-   ░░╚██╔╝░╚██╔╝░██║░░██║██║░░██║███████╗███████╗
-   ░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝${cyan1} .beta v${VERSION} \n                                     ${yellow}Reborn by Mr.Derek(t2g)\n\n "
+     ░██╗░░░░░░░██╗██╗░░██╗░█████╗░██╗░░░░░███████╗
+     ░██║░░██╗░░██║██║░░██║██╔══██╗██║░░░░░██╔════╝
+     ░╚██╗████╗██╔╝███████║███████║██║░░░░░█████╗░░${white}
+     ░░████╔═████║░██╔══██║██╔══██║██║░░░░░██╔══╝░░
+     ░░╚██╔╝░╚██╔╝░██║░░██║██║░░██║███████╗███████╗
+     ░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝${cyan1} 1.03 v${VERSION} \n                                     ${yellow}Reborn by Hk4crprasad\n\n "
 
       printf "${green}       ╔──────────────────────────────────────╗\n"
-      printf "${green}        |   ${cyan1}     B E T A   V E R S I O N ${green}      |\n"
+      printf "${green}        |   ${cyan1}     1 . 0 3 V E R S I O N ${green}      |\n"
       printf "${green}        ╚──────────────────────────────────────╝\n\n"
 
      printf "           ${green}💻 \e[1;4;5;37mSelect An Attack To Deploy\e[0m${green} 💻\n\n"
@@ -1132,4 +1132,3 @@ done
 #                      THANKYOU                                     #
 #                                                                   #
 #####################################################################
-
