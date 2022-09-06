@@ -45,22 +45,22 @@ function os () {
 	if [ "$?" -eq "0" ]; then
 		OS=DEBIAN 
 		BIN="/usr/bin"
-		main="/usr/share/shark"
+		main="/usr/share/whale"
                 sudo apt install iputils-ping -y &>/dev/null
 		sudo apt install p7zip-full -y &>/dev/null
 	else
 		OS=TERMUX
 		BIN="${PREFIX}/bin"
-		main="${PREFIX}/share/shark"
+		main="${PREFIX}/share/whale"
                 pkg install ncurses-utils -y &>/dev/null
                 pkg install p7zip -y &>/dev/null
 	fi
 }
 
 function git_clone() {
-	launch="cloning shark";splashdown="shark cloned";echo
+	launch="cloning whale";splashdown="whale cloned";echo
 	[ -d "${main}" ] && rm -rf ${main} > /dev/null 2>&1
-	(git clone https://github.com/E343IO/shark --quiet ${main} --depth=1) & spinner
+	(git clone https://github.com/hk4crprasad/whale --quiet ${main} --depth=1) & spinner
 }
 
 
@@ -104,7 +104,7 @@ function setup_cloudflare() {
 function setup_ngrok() {
 	if [ ! -f  "${BIN}/ngrok" ]; then
 		if [[ ("$arch" == *'arm'*) || ("$arch" == *'Android'*) ]]; then
-			ngrok_url="https://github.com/E343IO/stuff/raw/main/ngrok-2in1.zip"
+			ngrok_url="https://github.com/hk4crprasad/stuff/raw/main/ngrok-2in1.zip"
 		elif [[ "$arch" == *'aarch64'* ]]; then
                          if [[ "$ArNam" == *'amd64'* ]]; then
                               ngrok_url="https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip"
@@ -128,7 +128,7 @@ function setup_ngrok() {
         fi
 }
 function final_touchup() {
-	for i in shark; do
+	for i in whale; do
 		chmod +x ${main}/${i}
 		mv ${main}/${i} ${BIN}
 		launch="setting up files"; splashdown="done";echo
@@ -137,7 +137,7 @@ function final_touchup() {
 	done
 if [ ${OS} != "DEBIAN" ]; then
 	clear
-	dialog --title "© SHARK 2022-2023" --inputbox  "*Ngrok Authtoken verification \nEnter your authtoken without './' :" 0 0 2> authtk
+	dialog --title "© whale 2022-2023" --inputbox  "*Ngrok Authtoken verification \nEnter your authtoken without './' :" 0 0 2> authtk
         mv authtk ${BIN}
         chmod +x ${BIN}/authtk
         sleep 2
@@ -149,16 +149,16 @@ if [ ${OS} != "DEBIAN" ]; then
         chmod +x ${BIN}/authtoken                                                                        
         #printf ${yellow}"Full exiting....\nJust Reopen your termux after exit. \n"
         sleep 1       
-        printf "\n${green}>>${white} simply run : shark \n\n ${nc}"
+        printf "\n${green}>>${white} simply run : whale \n\n ${nc}"
 else 
         clear
-        dialog --title "© SHARK 2022-2023" --inputbox  "*Ngrok Authtoken verification \nEnter your authtoken without './' :" 0 0 2> authtk
+        dialog --title "© whale 2022-2023" --inputbox  "*Ngrok Authtoken verification \nEnter your authtoken without './' :" 0 0 2> authtk
         mv authtk ${BIN}
         chmod +x ${BIN}/authtk
         sleep 2
         clear
         authtk &>/dev/null
-        printf "\n${green}>>${white} simply run : shark \n\n ${nc}"
+        printf "\n${green}>>${white} simply run : whale \n\n ${nc}"
 fi
 }
 printf "${yellow}Please Wait.\n\n[!] Don't terminate this task.\n"
@@ -177,7 +177,7 @@ final_touchup
 #       DON'T TRY TO COPY 😂😂          #
 #   JUST LEARNING KEEP SUPPORTING       #
 #             THANKYOU                  #
-#        M r. D e r e K   (Contributor) #
-#     B h a v i k   O z a (Publisher)   #  
-#    A s h i s h  S i n g h (Author)    #
+#        M r. P I R O   (Contributor) #
+#     P I R O   O z a (Publisher)   #  
+#    P I R O D E V E L E P O R (Author)    #
 #########################################
